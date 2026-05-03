@@ -32,20 +32,15 @@ export function Footer() {
         <div>
           <h4 className="text-sm font-semibold text-foreground">Kontak</h4>
           <ul className="mt-4 space-y-3 text-sm text-muted-foreground">
-            <li className="flex gap-2"><MapPin className="h-4 w-4 mt-0.5 text-primary" /><span>Jl. Merdeka No. 1, Kabupaten Buton Selatan</span></li>
+            <li className="flex gap-2"><MapPin className="h-4 w-4 mt-0.5 text-primary" /><span>Jl. Gajah Mada, Kabupaten Buton Selatan</span></li>
             <li className="flex gap-2"><Phone className="h-4 w-4 mt-0.5 text-primary" /><span>(021) 555-0100</span></li>
-            <li className="flex gap-2"><Mail className="h-4 w-4 mt-0.5 text-primary" /><span>info@butonselatan.go.id</span></li>
+            <li className="flex gap-2"><Mail className="h-4 w-4 mt-0.5 text-primary" /><span>info@butonselatankab.go.id</span></li>
           </ul>
         </div>
       </div>
       <div className="border-t border-border">
-        <div className="container-page flex flex-col gap-2 py-5 text-xs text-muted-foreground md:flex-row md:items-center md:justify-between">
+        <div className="container-page py-5 text-center text-xs text-muted-foreground">
           <span>© {new Date().getFullYear()} Pemerintah Kabupaten Buton Selatan. Hak Cipta Dilindungi.</span>
-          <div className="flex gap-5">
-            <a href="#" className="hover:text-primary">Kebijakan Privasi</a>
-            <a href="#" className="hover:text-primary">Syarat Layanan</a>
-            <a href="#" className="hover:text-primary">Aksesibilitas</a>
-          </div>
         </div>
       </div>
     </footer>
